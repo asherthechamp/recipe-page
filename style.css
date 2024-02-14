@@ -1,0 +1,68 @@
+body {
+    font-family: outfit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    width: 630px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Young Serif;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 0px;
+}
+
+.card {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+li {
+    padding: 8px;
+}
+
+.cardtitle {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%)
+}
+
+.hrclass {
+    height: 1px;
+    background-color:hsl(30, 10%, 34%);
+}
+
+.tableclass {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-bottom-color: hsl(30, 18%, 87%);
+}
+
+.lefttd {
+    color: hsl(14, 45%, 36%)
+}
