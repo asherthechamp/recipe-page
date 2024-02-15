@@ -7,14 +7,14 @@ body {
     color: hsl(30, 10%, 34%);
 }
 
-main {
+.container {
     margin-top: 40px;
     display: flex;
     padding: 15px;
     flex-direction: column;
-    width: 630px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
+    width: 650px;
 }
 
 img {
@@ -65,4 +65,10 @@ td {
 
 .lefttd {
     color: hsl(14, 45%, 36%)
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 250px;
+    }
 }
